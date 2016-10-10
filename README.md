@@ -31,7 +31,7 @@ my first mobile repository
 1. `npm install gulp --save-dev`通过npm安装gulp构建工具，并且添加为开发环境的依赖
 2. 创建gulpfile.js文件至项目根目录，仿照gulp所在的github仓库提供的REAME.md进行编辑图片压缩，js压缩以及stylus编译并压缩和监听文件变化的任务
 3. `npm install 开发模块名称 --save-dev`安装gulpfile.js中所需要的开发模块的依赖
-4. `npm install gulp -g`全局安装gulp使之成为一个可被cmd命令行执行的软件
+4. `npm install gulp -g`如果本机已经全局安装过gulp作为软件，则不需要全局安装gulp使之成为一个可被cmd命令行执行的软件
 5. cmd命令行执行gulp
 
 ## 将本地初始化好的整个项目通过git推送至远程代码仓库
